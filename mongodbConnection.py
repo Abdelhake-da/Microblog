@@ -1,8 +1,10 @@
 from pymongo import MongoClient
+import os
+from dotenv import load_dotenv
 
-USER_NAME = "***************"
-PASSWORD = "**********"
-client = MongoClient("mongodb+srv://"+USER_NAME+":"+PASSWORD+"@mictoblog-application.s9yuslt.mongodb.net/")
+load_dotenv()
+
+client = MongoClient(os.environ.get("MICROBLOG_URI"))
 
 db = client.microblog.data
 def get_element():

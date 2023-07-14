@@ -1,0 +1,4 @@
+Micrblog_Application:
+    USER_NAME = "abdohako92"
+    PASSWORD = "NVtWIuzIEL4EF3R3"
+for hiding the variable and used it we must to install __ python-dotenv __
