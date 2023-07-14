@@ -35,27 +35,27 @@ section .blog-list .blog-element{
     margin-bottom: 1.9rem;
     color: #595d5e;
 }
-section .blog-list .blog-element .tatle{
+section .blog-list .blog-element .title{
     display: flex;
     align-items: center;
     margin-bottom: 0.3rem;
 }
-section .blog-list .blog-element .tatle h4{
+section .blog-list .blog-element .title h4{
     font-weight: 800;
 }
-section .blog-list .blog-element .tatle .date{
+section .blog-list .blog-element .title .date{
     display: flex;
     align-items: center;
     margin-left: 0.4rem;
 }
-section .blog-list .blog-element .tatle .date .circle-dot{
+section .blog-list .blog-element .title .date .circle-dot{
     margin-right: 0.4rem;
     background-color: #595d5e;
     height: 0.4rem;
     width: 0.4rem;
     border-radius: 50%;
 }
-section .blog-list .blog-element .tatle .date {
+section .blog-list .blog-element .title .date {
     color: #8a8f91;
 }
 section .blog-list .blog-element .paragraph{
