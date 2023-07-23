@@ -1,4 +1,4 @@
-flask==2.3.2
-pymongo[srv]==4.4.1
+flask
+pymongo[srv]
 gunicorn
 python-dotenv
